@@ -217,7 +217,7 @@ font-family: var(--primary-font-family);
   font-family: var(--primary-font-family);
 }
 
-.about-skills{
+.about-skills {
   position:relative;
   margin: auto;
   text-align: center;
@@ -228,11 +228,17 @@ font-family: var(--primary-font-family);
   background-color: var(--primary-background-color);
 }
 
+.about-skills h1 {
+  font-size: var(--secondary-font-size);
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
+}
+
 .about-list {
   list-style-type: none !important;
   text-align: center;
   margin: auto;
-  padding: 30px; 
+  padding: 10px; 
 }
 
 .button, button {
@@ -247,6 +253,8 @@ font-family: var(--primary-font-family);
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: opacity 0.2s;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button:hover,
