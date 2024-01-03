@@ -89,10 +89,11 @@ Profile Page
   flex-direction: row;
   margin: auto;
   margin-top: 5%;
-  height: 480px;
+  height: 400px;
   max-width: 780px;
   background-color: var(--primary-background-color);
   }
+
   .profile__portrait {
   float: left;
   width: 150px;
@@ -115,10 +116,28 @@ Profile Page
   font-size: var(--secondary-font-size);
   font-weight: 700;
   color: var(--secondary-color);
-  line-height: 1.5;
+  line-height: 2.5;
   font-family: var(--secondary-font-family);
   }
   .profile span {
+    font-size: 23px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-family: 'Raleway', sans-serif;
+  }
+
+.index--quote {
+  position:relative;
+  flex-direction: row;
+  text-align: center;
+  margin:auto;
+  background-color: var(--primary-background-color);
+  font-size: var(--primary-font-size);
+  color: var(--primary-color);
+  font-family: var(--primary-color);
+  }
+
+  .index--quote span {
     font-size: 23px;
     font-weight: bold;
     color: var(--secondary-color);
