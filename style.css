@@ -94,9 +94,25 @@ Profile Page
   background-color: var(--primary-background-color);
   }
 
+  .profile a {
+    color: var(--secondary-color);
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--primary-color);
+    }
+
+    .profile a:hover{
+      color: var(--secondary-background-color) !important;
+      text-decoration-line: none;
+      cursor: pointer;
+      }
+    
+
   .profile__portrait {
   float: left;
   width: 150px;
+  height: 215px;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 40px;
@@ -164,6 +180,23 @@ Footer
   font-size: var(--primary-font-size);
   font-family: var(--primary-font-family);
   }
+
+  .page-footer-about {
+    position: relative;
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    flex: right;
+    text-align:center;
+    background-color: var(--secondary-background-color);
+  }
+
+  .page-footer-about p {
+    color: var(--white);
+    font-size: var(--primary-font-size);
+    font-family: var(--primary-font-family);
+    }
 
 /*
 Mosaic Grid Project
@@ -241,73 +274,6 @@ Mosaic Grid Project
 }
 
 /*
-Contact Page
-*/
-
-
-.contact-info {
-position:relative;
-float:left;
-text-align: left;
-width: 500px;
-max-width: 40%;
-height: 500px;
-padding: 10px;
-flex-direction: row;
-margin: auto;
-margin-top: 5%;
-margin-left: 200px;
-background-color: var(--primary-background-color);
-font-size: var(--primary-font-size);
-color:var(--primary-color);
-font-family: var(--primary-font-family);
-}
-
-.contact-info a{
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.contact-info h1{
-  font-size: var(--secondary-font-size);
-  color:var(--secondary-color);
-  font-family: var(--secondary-font-family);
-}
-
-.contact-form {
-  position:relative;
-  float:right;
-  text-align:left;
-  width: 400px;
-  max-width: 40%;
-  height: 480px;
-  padding: 10px;
-  flex-direction: row;
-  margin-top: 5%;
-  margin-right: 150px;
-  background-color: var(--primary-background-color);
-}
-
-.contact-form h1 {
-  font-size: var(--secondary-font-size);
-  color:var(--secondary-color);
-  font-family: var(--secondary-font-family);
-}
-
-.standard-label {
-  display:block;
-  text-align: left;
-  font-size: var(--primary-font-size);
-  color:var(--primary-color);
-  font-family: var(--primary-font-family);
-}
-
-
-/*
 About Page
 */
 
@@ -315,6 +281,7 @@ About Page
 .about-skills {
   position:relative;
   margin: auto;
+  max-width: 618px;
   text-align: center;
   font-size: var(--primary-font-size);
   color:var(--primary-color);
@@ -323,13 +290,17 @@ About Page
   background-color: var(--primary-background-color);
 }
 
-.about-skills h1 {
-  font-size: var(--secondary-font-size);
-  font-family: var(--secondary-font-family);
-  color: var(--secondary-color);
+.about-skills p {
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
 }
 
 .about-list {
+  font-size: 26px;
+  font-style: bold;
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
   list-style-type: none !important;
   text-align: center;
   margin: auto;
