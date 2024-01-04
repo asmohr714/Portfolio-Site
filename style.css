@@ -85,6 +85,9 @@ Profile Page
   font-family: var(--primary-font-family);
 }
 .profile {
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
   position:relative;
   flex-direction: row;
   margin: auto;
@@ -107,11 +110,17 @@ Profile Page
       text-decoration-line: none;
       cursor: pointer;
       }
+
+  .profile span {
+    font-size: 20px;
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+  }
     
 
   .profile__portrait {
   float: left;
-  width: 150px;
+  width: 170px;
   height: 215px;
   margin-top: 10px;
   margin-left: 10px;
@@ -125,7 +134,7 @@ Profile Page
   flex: 1 1 100px;
   font-size: var(--primary-font-size);
   color: var(--primary-color);
-  line-height: 1.5;
+  line-height: 1;
   font-family: var(--primary-color);
   }
   .profile h1 {
