@@ -134,8 +134,9 @@ Profile Page
   flex: 1 1 100px;
   font-size: var(--primary-font-size);
   color: var(--primary-color);
-  line-height: 1;
+  line-height: 1.2;
   font-family: var(--primary-color);
+  top: 0;
   }
   .profile h1 {
   font-size: var(--secondary-font-size);
@@ -257,6 +258,27 @@ Mosaic Grid Project
 .project-item.small {
   grid-row: span 1;
   grid-column: span 1;
+  background-image: url(IMG/Profile-page.png) !important;
+  background-color: var(--secondary-background-color);
+  color: var(--white);
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top left;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  z-index: 10;
+  border: var(--primary-color);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5% 10%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-blend-mode: multiply;
+  text-decoration: none;
 }
 .project-item.medium {
   grid-row: span 2;
@@ -273,7 +295,29 @@ Mosaic Grid Project
 .project-item.wide {
   grid-row: span 2;
   grid-column: span 3;
+  background-image: url(IMG/JS-App.png);
+  background-color: var(--secondary-background-color);
+  color: var(--white);
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top left;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  z-index: 10;
+  border: var(--primary-color);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5% 10%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-blend-mode: multiply;
+  text-decoration: none;
 }
+
 .project-item:hover {
   color: white;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
