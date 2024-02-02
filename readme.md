@@ -1,1 +1,1 @@
-My Portfolio Site featuring my work, experience and contact information.
+Web page created with html5, css and js.  
