@@ -296,7 +296,7 @@ Mosaic Grid Project
   grid-row: span 2;
   grid-column: span 3;
   background-image: url(IMG/JS-App.png);
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
   color: var(--white);
   font-size: var(--primary-font-size);
   font-family: var(--primary-font-family);
