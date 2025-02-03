@@ -13,10 +13,10 @@ Span, Raleway
  */
 
  :root {
-  --primary-color: #8d0607;
+  --primary-color: #e7dbdb;
   --secondary-color: #7c0306;
-  --primary-background-color: #ffdecd;
-  --secondary-background-color: #fd6203;
+  --primary-background-color: #8fc4ca;
+  --secondary-background-color: #463931;
   --white: #ffffff;
   --primary-font-family: 'Montserrat', sans-serif;
   --secondary-font-family: 'Oswald', sans-serif;
