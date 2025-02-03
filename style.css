@@ -1,4 +1,4 @@
-/*
+
 Colors used
 Header / Footer Background, #fd6203
 Main Background, #ffdecd
@@ -13,10 +13,10 @@ Span, Raleway
  */
 
  :root {
-  --primary-color: #e7dbdb;
+  --primary-color: #8d0607;
   --secondary-color: #7c0306;
-  --primary-background-color: #8fc4ca;
-  --secondary-background-color: #463931;
+  --primary-background-color: #ffdecd;
+  --secondary-background-color: #fd6203;
   --white: #ffffff;
   --primary-font-family: 'Montserrat', sans-serif;
   --secondary-font-family: 'Oswald', sans-serif;
